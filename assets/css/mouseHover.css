@@ -1,0 +1,11 @@
+.cursor {
+position: fixed;
+pointer-events: none;
+opacity: 0;
+}
+
+.cursor-bee {
+top: -75px;
+left: -75px;
+z-index: -1;
+}

@@ -22,12 +22,13 @@
             color: var(--blue);
         }
     </style>
+    <link rel="stylesheet" href="assets/css/mouseHover.css">
 </head>
 
 <body style="background-color: var(--bs-gray-200)">
     <nav class="navbar navbar-light bg-none">
         <div class="container">
-            <a class="navbar-brand mx-auto" href="#" style="color: #093466;">Yellow<span class="fw-bold"
+            <a class="navbar-brand mx-auto line-animation" href="#" style="color: #093466;">Yellow<span class="fw-bold"
                     style="color: #f0c21a;">duckies</span></a>
             <!-- <a class="btn" type="button" style="color: #093466;" data-bs-toggle="offcanvas" data-bs-target="#menuButton"
                 aria-controls="menuButton">
@@ -49,30 +50,36 @@
             ...
         </div>
     </div>
-    <div class="container" style="min-height: 85vh;">
-        <div class="row row-cols-md-2 row-cols-1">
-            <div class="col">
-                <img class="img-fluid"
-                    src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/b6e8c2a70906581b91e227b1/ss-min.png"
-                    alt="Image">
+    <div class="container">
+        <div class="row justify-content-center" style="min-height: 85vh;">
+            <div class="col-sm-12 col-md-7 my-auto">
+                <img class="img-fluid line-animation" src="assets/images/team-image.png" alt="Image">
             </div>
-            <div class="col my-auto">
-                <h1 class="display-1">Web Development</h1>
-            </div>
-        </div>
-        <div class="bg-dark rounded-3 shadow">
-            <div class="container py-5">
-                <div class="mx-auto text-light">
-                    Call us @ +91 885-123-1533
-                </div>
+            <div class="col-sm-12 col-md-5 my-auto">
+                <h1 class="display-1 mt-2"><span style="text-decoration: overline;">Software</span> Developers team</h1>
+                <p class="fs-5">Handling the software development terrifically.</p>
             </div>
         </div>
+    </div>
+    <div class="page-footer" style="background-color: #093466;">
+        <div class="container py-4">
+            <div class="mx-auto">
+                <p class="text-center text-light fw-bold">Contact us<br /><a href="tel:++918851231533"
+                        class="text-decoration-none" style="color: #f0c21a;">+91 885-123-1533</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="cursor cursor-bee">
+        <img width="150" height="150" src="assets/images/mouse-bg.png" alt="">
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/mouseHover.js"></script>
 </body>
 
 </html>
