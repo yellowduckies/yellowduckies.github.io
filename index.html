@@ -21,6 +21,40 @@
         * {
             color: var(--blue);
         }
+
+        .btn-yd-primary {
+            background-color: #116edc;
+            color: var(--bs-gray-100);
+            border-radius: 8px;
+            padding: 15px 30px;
+            border: 2px solid var(--bs-gray-200);
+            box-shadow: 10px 10px 0px rgb(48, 48, 48);
+            transition: all ease-in-out 0.4s;
+        }
+
+        .btn-yd-primary:hover {
+            background-color: #f0c21a;
+            color: #116edc;
+            border: 2px solid var(--bs-gray-500);
+            box-shadow: 0px 0px 0px;
+        }
+
+        .btn-yd-secondary {
+            background-color: #f0c21a;
+            color: var(--bs-gray-100);
+            border-radius: 8px;
+            padding: 15px 30px;
+            border: 2px solid var(--bs-gray-200);
+            box-shadow: 10px 10px 0px rgb(48, 48, 48);
+            transition: all ease-in-out 0.4s;
+        }
+
+        .btn-yd-secondary:hover {
+            background-color: #116edc;
+            color: #f0c21a;
+            border: 2px solid var(--bs-gray-500);
+            box-shadow: 0px 0px 0px;
+        }
     </style>
     <link rel="stylesheet" href="assets/css/mouseHover.css">
 </head>
@@ -63,9 +97,21 @@
     </div>
     <div class="page-footer" style="background-color: #093466;">
         <div class="container py-4">
-            <div class="mx-auto">
-                <p class="text-center text-light fw-bold">Contact us<br /><a href="tel:++918851231533"
-                        class="text-decoration-none" style="color: #f0c21a;">+91 885-123-1533</a></p>
+            <div class="row justify-content-center h-100">
+                <div class="col-md-6">
+                    <div class="card rounded-3 border-0 shadow pb-3" style="background-color: var(--bs-gray-200);">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Contact us</h5>
+                            <p>
+                                <small class="card-text">We'll never share your confidential data with any third
+                                    party.</small>
+                            </p>
+                            <a href="tel:++918851231533" class="text-decoration-none btn-yd-primary mx-2">Call us</a>
+                            <a href="mailto:yellowducky004@gmail.com" class="text-decoration-none btn-yd-secondary mx-2">Mail
+                                us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
