@@ -5,6 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/images/icons/favicon.png" type="image/x-icon">
+    <meta name="description" content="Web developer team in delhi, gurgaon, India">
+    <meta name="keywords"
+        content="Web developer, Software Developer, Top developer in India, Top developer in Delhi Gurgaon">
 
     <title>Yellowduckies | Web Dev Team</title>
     <!-- Bootstrap CSS -->
@@ -16,6 +20,17 @@
             --yellow: #f0c21a;
             --blue: #093466;
             --grey: #cccccc;
+        }
+
+        ::-moz-selection {
+            /* Code for Firefox */
+            color: #093466;
+            background: #f0c21a;
+        }
+
+        ::selection {
+            color: #093466;
+            background: #f0c21a;
         }
 
         * {
@@ -68,8 +83,11 @@
 <body style="background-color: var(--bs-gray-200)">
     <nav class="navbar navbar-light bg-none">
         <div class="container">
-            <a class="navbar-brand mx-auto line-animation" href="/" style="color: #093466;">Yellow<span class="fw-bold"
-                    style="color: #f0c21a;">duckies</span></a>
+            <a class="navbar-brand mx-auto d-flex" href="/" style="color: #093466;">
+                <img src="./assets/images/icons/favicon.png" class="my-auto" alt="YellowDuckies logo"
+                    style="width: 50px;">
+                <p class="my-auto">Yellow<span class="fw-bold" style="color: #f0c21a;">duckies</span></p>
+            </a>
             <!-- <a class="btn" type="button" style="color: #093466;" data-bs-toggle="offcanvas" data-bs-target="#menuButton"
                 aria-controls="menuButton">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
@@ -117,34 +135,41 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row justify-content-center h-100">
-                                <img src="./assets/images/team-members/saroj-prasad.png" class="col-12 col-sm-4 carousel-image"
-                                    alt="...">
+                                <img src="./assets/images/team-members/saroj-prasad.png"
+                                    class="col-12 col-sm-4 carousel-image" alt="...">
                                 <div class="col-12 col-sm-4 my-auto">
                                     <h3 class="text-light">Lead Project Manager / Software Developer</h3>
                                     <p class="fw-bold"><small class="text-light">(Mr. Saroj Prasad)</small></p>
-                                    <p class="text-light">Meet our lead project manager, He has been developing softwares for the sake of humans good since 2017.
+                                    <p class="text-light">Meet our lead project manager, He has been developing
+                                        softwares for the sake of humans good since 2017.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row justify-content-center h-100">
-                                <img src="./assets/images/team-members/gourav.png" class="col-12 col-sm-4 carousel-image" alt="...">
+                                <img src="./assets/images/team-members/gourav.png"
+                                    class="col-12 col-sm-4 carousel-image" alt="...">
                                 <div class="col-12 col-sm-4 my-auto">
                                     <h3 class="text-light">Project Manager / Buisness Analyst</h3>
                                     <p class="fw-bold"><small class="text-light">(Mr. Gourav Khandodiya)</small></p>
-                                    <p class="text-light">Meet our buisness analyst, He ensures vital link between our information technology capacity and our business objectives by supporting and ensuring the successful completion of analytical, building, testing and deployment tasks of our software product's features.
+                                    <p class="text-light">Meet our buisness analyst, He ensures vital link between our
+                                        information technology capacity and our business objectives by supporting and
+                                        ensuring the successful completion of analytical, building, testing and
+                                        deployment tasks of our software product's features.
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row justify-content-center h-100">
-                                <img src="./assets/images/team-members/ayyub.png" class="col-12 col-sm-4 carousel-image" alt="...">
+                                <img src="./assets/images/team-members/ayyub.png" class="col-12 col-sm-4 carousel-image"
+                                    alt="...">
                                 <div class="col-12 col-sm-4 my-auto">
                                     <h3 class="text-light">Project Associate / Software Developer</h3>
                                     <p class="fw-bold"><small class="text-light">(Mr. Ayyub Khan)</small></p>
-                                    <p class="text-light">Meet our great software developer, He can figure out problems while producing a great product for the organization.
+                                    <p class="text-light">Meet our great software developer, He can figure out problems
+                                        while producing a great product for the organization.
                                     </p>
                                 </div>
                             </div>
@@ -226,6 +251,15 @@
         integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/mouseHover.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEPRDYWQS4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BEPRDYWQS4');
+    </script>
 </body>
 
 </html>
