@@ -5,9 +5,9 @@ export default function Contact() {
         <section className="max-w-md mx-auto px-4 py-16 text-center">
             <h2 className="text-3xl font-bold mb-4">Contact</h2>
             <p className="text-gray-700 mb-6">
-                Let’s connect! Reach me at <a href="mailto:saroj.prasad@email.com" className="text-blue-600">prasad.hunny03@gmail.com</a>
+                Let’s connect! Reach me at <a href="mailto:prasad.hunny03@gmail.com" className="text-gray-400">prasad.hunny03@gmail.com</a>
                 <br />
-                or message me on <a href="https://linkedin.com/in/saroj-prasad" target="_blank" className="text-blue-600">Saroj Prasad <Linkedin className="inline w-4 h-4" /></a>.
+                or message me on <a href="https://linkedin.com/in/saroj-prasad" target="_blank" className="text-gray-400">Saroj Prasad <Linkedin className="inline w-4 h-4" /></a>.
             </p>
             <form className="flex flex-col gap-3">
                 <input

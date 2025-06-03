@@ -12,7 +12,7 @@ export default function Navbar() {
         <nav className="w-full flex justify-center py-4 border-b">
             <div className="flex gap-8">
                 {navItems.map((item) => (
-                    <Link key={item.href} href={item.href} className="text-lg font-medium hover:text-blue-600 transition">
+                    <Link key={item.href} href={item.href} className="text-lg font-medium hover:text-gray-600 transition">
                         {item.name}
                     </Link>
                 ))}

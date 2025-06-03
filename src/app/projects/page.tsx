@@ -13,21 +13,19 @@ export default function Projects() {
                         className="relative group block rounded-xl border p-5 hover:shadow-lg transition overflow-hidden min-h-[120px]"
                         style={{ minHeight: 120 }}
                     >
-                        {/* Chevron as card-height animated background */}
-                        <ChevronRight
-                            className="
-                                absolute left-0 top-0 h-full w-[64px] 
-                                text-gray-400 opacity-0 -translate-x-10 translate-y-5
-                                group-hover:opacity-50 group-hover:translate-x-130 
-                                transition-all duration-400 ease-in-out
-                                pointer-events-none z-0
-                            "
-                            aria-hidden="true"
-                        />
                         <Link
                             href={`/projects/${p.slug}`}
                             className="relative z-10 block"
                         >
+                            <ChevronRight
+                            className="
+                                absolute left-0 top-0 w-[64px] h-[70px]
+                                text-gray-400 opacity-0 translate-x-130 translate-y-50
+                                group-hover:opacity-50 group-hover:translate-y-20 
+                                transition-all duration-400 ease-out
+                                border rounded-xl m-2
+                            "
+                        />
                             <h3 className="font-semibold text-xl">{p.title}</h3>
                             <p className="text-gray-600">{p.desc}</p>
                         </Link>
