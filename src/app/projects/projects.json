@@ -1,0 +1,58 @@
+[
+    {
+        "slug": "gunvatta-gurukul",
+        "title": "Gunvatta Gurukul Exam Portal",
+        "url": "https://ggk.upguage.com/",
+        "desc": "A scalable exam portal handling thousands of requests per second, with rapid applicant growth and robust architecture.",
+        "role": "Lead",
+        "duration": "Sept 2023 – Present",
+        "highlights": [
+            "Directed a team of 3 SDE interns (BITS, Pilani/Hyderabad) and 1 SDE.",
+            "Implemented effective marketing—500+ applicants in the first week.",
+            "Designed robust architecture to handle thousands of HTTP requests per second.",
+            "Oversaw timely achievement of all project milestones."
+        ]
+    },
+    {
+        "slug": "made-in-india",
+        "title": "Made in India Labialization",
+        "url": "https://madeinindia.qcin.org/",
+        "desc": "API-driven integration for Indian steel producers with 10,000+ req/sec capability, enabling seamless data exchange.",
+        "role": "Tech Lead",
+        "duration": "Dec 2022 – Present",
+        "highlights": [
+            "Onboarded 10+ major Indian steel producers, including Tata, SAIL, AMNS, JSL, JSW.",
+            "Built high-volume API for producers to transmit 10,000+ requests per second.",
+            "Ensured seamless integration for producer onboarding.",
+            "Improved data reliability and automation for the platform."
+        ]
+    },
+    {
+        "slug": "asi-report-automation",
+        "title": "ASI Report Automation",
+        "url": "http://asi-reports.qcin.org/monument-name/old-fort",
+        "desc": "Automated 140+ site reports, using Google Forms, Sheets, APIs, and PowerBI dashboards for the Archaeological Survey of India.",
+        "role": "Lead",
+        "duration": "Sept 2023 – Dec 2023",
+        "highlights": [
+            "Automated ASI site reporting for 140+ sites.",
+            "Integrated Google Forms, Spreadsheets, and custom APIs.",
+            "Streamlined operations for 10+ staff and automated manual tasks.",
+            "Developed a PowerBI dashboard for real-time site analysis."
+        ]
+    },
+    {
+        "slug": "nabl-blockchain",
+        "title": "NABL Blockchain Portal",
+        "url": "https://qcert.qcin.org/",
+        "desc": "Blockchain-based portal for labs, using Docker, AWS EKS, and AngularJS. Eliminated certificate fraud and reduced verification costs.",
+        "role": "Tech Lead",
+        "duration": "Mar 2022 – Dec 2022",
+        "highlights": [
+            "Built AngularJS frontend for lab certificate management.",
+            "Containerized components using Docker and Kubernetes; deployed on AWS EKS.",
+            "Eliminated certificate fraud and reduced verification costs.",
+            "Automated email analysis/reporting for NABL officials."
+        ]
+    }
+]
